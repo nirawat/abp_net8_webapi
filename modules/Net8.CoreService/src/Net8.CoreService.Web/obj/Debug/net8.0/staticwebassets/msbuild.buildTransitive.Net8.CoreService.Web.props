@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Net8.CoreService.Web.props" />
+</Project>

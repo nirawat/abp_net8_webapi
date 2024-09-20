@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mRejFcb3xNUroHMkE+2eSfEE+J+NBX77S1q2J99fVaQ=",
+  "Source": "Net8.CoreService.Web",
+  "BasePath": "_content/Net8.CoreService.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

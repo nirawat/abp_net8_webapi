@@ -1,0 +1,36 @@
+2024-09-18 13:11:24.191 +07:00 [INF] Started database migrations...
+2024-09-18 13:11:24.204 +07:00 [INF] Migrating schema for host database...
+2024-09-18 13:11:34.342 +07:00 [ERR] Failed executing DbCommand (1,984ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AbpAuditLogs" (
+    "Id" uuid NOT NULL,
+    "ApplicationName" character varying(96),
+    "UserId" uuid,
+    "UserName" character varying(256),
+    "TenantId" uuid,
+    "TenantName" character varying(64),
+    "ImpersonatorUserId" uuid,
+    "ImpersonatorUserName" character varying(256),
+    "ImpersonatorTenantId" uuid,
+    "ImpersonatorTenantName" character varying(64),
+    "ExecutionTime" timestamp without time zone NOT NULL,
+    "ExecutionDuration" integer NOT NULL,
+    "ClientIpAddress" character varying(64),
+    "ClientName" character varying(128),
+    "ClientId" character varying(64),
+    "CorrelationId" character varying(64),
+    "BrowserInfo" character varying(512),
+    "HttpMethod" character varying(16),
+    "Url" character varying(256),
+    "Exceptions" text,
+    "Comments" character varying(256),
+    "HttpStatusCode" integer,
+    "ExtraProperties" text NOT NULL,
+    "ConcurrencyStamp" character varying(40) NOT NULL,
+    CONSTRAINT "PK_AbpAuditLogs" PRIMARY KEY ("Id")
+);
+2024-09-18 13:13:10.671 +07:00 [INF] Started database migrations...
+2024-09-18 13:13:10.690 +07:00 [INF] Migrating schema for host database...
+2024-09-18 13:13:36.849 +07:00 [INF] Executing host database seed...
+2024-09-18 13:13:49.776 +07:00 [INF] Successfully completed host database migrations.
+2024-09-18 13:13:53.049 +07:00 [INF] Successfully completed all database migrations.
+2024-09-18 13:13:53.049 +07:00 [INF] You can safely end this process...

@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.TestBase\\Net8.TestBase.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.TestBase\\Net8.TestBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.TestBase\\Net8.TestBase.csproj",
+        "projectName": "Net8.TestBase",
+        "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.TestBase\\Net8.TestBase.csproj",
+        "packagesPath": "C:\\Users\\wirawat\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.TestBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\NuGet.Config",
+          "C:\\Users\\wirawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "NSubstitute.Analyzers.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.16, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Volo.Abp.Authorization": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.BackgroundJobs.Abstractions": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.TestBase": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "xunit.extensibility.execution": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
