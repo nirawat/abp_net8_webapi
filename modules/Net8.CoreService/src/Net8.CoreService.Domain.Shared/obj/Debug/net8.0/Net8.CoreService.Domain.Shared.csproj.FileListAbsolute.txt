@@ -1,0 +1,14 @@
+D:\Projects\Template\Dotnet\abp_net8_webapi\modules\Net8.CoreService\src\Net8.CoreService.Domain.Shared\bin\Debug\net8.0\Net8.CoreService.Domain.Shared.deps.json
+D:\Projects\Template\Dotnet\abp_net8_webapi\modules\Net8.CoreService\src\Net8.CoreService.Domain.Shared\bin\Debug\net8.0\Net8.CoreService.Domain.Shared.dll
+D:\Projects\Template\Dotnet\abp_net8_webapi\modules\Net8.CoreService\src\Net8.CoreService.Domain.Shared\bin\Debug\net8.0\Net8.CoreService.Domain.Shared.pdb
+D:\Projects\Template\Dotnet\abp_net8_webapi\modules\Net8.CoreService\src\Net8.CoreService.Domain.Shared\obj\Debug\net8.0\Net8.CoreService.Domain.Shared.csproj.AssemblyReference.cache
+D:\Projects\Template\Dotnet\abp_net8_webapi\modules\Net8.CoreService\src\Net8.CoreService.Domain.Shared\obj\Debug\net8.0\Net8.CoreService.Domain.Shared.EmbeddedFilesManifest.cache
+D:\Projects\Template\Dotnet\abp_net8_webapi\modules\Net8.CoreService\src\Net8.CoreService.Domain.Shared\obj\Debug\net8.0\Net8.CoreService.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Template\Dotnet\abp_net8_webapi\modules\Net8.CoreService\src\Net8.CoreService.Domain.Shared\obj\Debug\net8.0\Net8.CoreService.Domain.Shared.AssemblyInfoInputs.cache
+D:\Projects\Template\Dotnet\abp_net8_webapi\modules\Net8.CoreService\src\Net8.CoreService.Domain.Shared\obj\Debug\net8.0\Net8.CoreService.Domain.Shared.AssemblyInfo.cs
+D:\Projects\Template\Dotnet\abp_net8_webapi\modules\Net8.CoreService\src\Net8.CoreService.Domain.Shared\obj\Debug\net8.0\Net8.CoreService.Domain.Shared.csproj.CoreCompileInputs.cache
+D:\Projects\Template\Dotnet\abp_net8_webapi\modules\Net8.CoreService\src\Net8.CoreService.Domain.Shared\obj\Debug\net8.0\Net8.CoreService.Domain.Shared.csproj.Fody.CopyLocal.cache
+D:\Projects\Template\Dotnet\abp_net8_webapi\modules\Net8.CoreService\src\Net8.CoreService.Domain.Shared\obj\Debug\net8.0\Net8.CoreService.Domain.Shared.dll
+D:\Projects\Template\Dotnet\abp_net8_webapi\modules\Net8.CoreService\src\Net8.CoreService.Domain.Shared\obj\Debug\net8.0\refint\Net8.CoreService.Domain.Shared.dll
+D:\Projects\Template\Dotnet\abp_net8_webapi\modules\Net8.CoreService\src\Net8.CoreService.Domain.Shared\obj\Debug\net8.0\Net8.CoreService.Domain.Shared.pdb
+D:\Projects\Template\Dotnet\abp_net8_webapi\modules\Net8.CoreService\src\Net8.CoreService.Domain.Shared\obj\Debug\net8.0\ref\Net8.CoreService.Domain.Shared.dll

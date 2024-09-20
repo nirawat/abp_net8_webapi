@@ -1,0 +1,1330 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.EntityFrameworkCore.Tests\\Net8.EntityFrameworkCore.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Application.Contracts\\Net8.CoreService.Application.Contracts.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Application.Contracts\\Net8.CoreService.Application.Contracts.csproj",
+        "projectName": "Net8.CoreService.Application.Contracts",
+        "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Application.Contracts\\Net8.CoreService.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\wirawat\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\NuGet.Config",
+          "C:\\Users\\wirawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain.Shared\\Net8.CoreService.Domain.Shared.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain.Shared\\Net8.CoreService.Domain.Shared.csproj"
+              },
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain\\Net8.CoreService.Domain.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain\\Net8.CoreService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Volo.Abp.Authorization": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Ddd.Application.Contracts": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Application\\Net8.CoreService.Application.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Application\\Net8.CoreService.Application.csproj",
+        "projectName": "Net8.CoreService.Application",
+        "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Application\\Net8.CoreService.Application.csproj",
+        "packagesPath": "C:\\Users\\wirawat\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\NuGet.Config",
+          "C:\\Users\\wirawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Application.Contracts\\Net8.CoreService.Application.Contracts.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Application.Contracts\\Net8.CoreService.Application.Contracts.csproj"
+              },
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain\\Net8.CoreService.Domain.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain\\Net8.CoreService.Domain.csproj"
+              },
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.EntityFrameworkCore\\Net8.CoreService.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.EntityFrameworkCore\\Net8.CoreService.EntityFrameworkCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.14, )"
+            },
+            "Volo.Abp.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.AutoMapper": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Ddd.Application": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.HangFire": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain.Shared\\Net8.CoreService.Domain.Shared.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain.Shared\\Net8.CoreService.Domain.Shared.csproj",
+        "projectName": "Net8.CoreService.Domain.Shared",
+        "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain.Shared\\Net8.CoreService.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\wirawat\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\NuGet.Config",
+          "C:\\Users\\wirawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Volo.Abp.Ddd.Domain.Shared": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Validation": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain\\Net8.CoreService.Domain.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain\\Net8.CoreService.Domain.csproj",
+        "projectName": "Net8.CoreService.Domain",
+        "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain\\Net8.CoreService.Domain.csproj",
+        "packagesPath": "C:\\Users\\wirawat\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\NuGet.Config",
+          "C:\\Users\\wirawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain.Shared\\Net8.CoreService.Domain.Shared.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain.Shared\\Net8.CoreService.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Volo.Abp.Ddd.Domain": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.EntityFrameworkCore\\Net8.CoreService.EntityFrameworkCore.csproj": {
+      "version": "0.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.EntityFrameworkCore\\Net8.CoreService.EntityFrameworkCore.csproj",
+        "projectName": "Net8.CoreService.EntityFrameworkCore",
+        "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.EntityFrameworkCore\\Net8.CoreService.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\wirawat\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\NuGet.Config",
+          "C:\\Users\\wirawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain\\Net8.CoreService.Domain.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain\\Net8.CoreService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Volo.Abp.Dapper": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Application.Contracts\\Net8.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Application.Contracts\\Net8.Application.Contracts.csproj",
+        "projectName": "Net8.Application.Contracts",
+        "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Application.Contracts\\Net8.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\wirawat\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\NuGet.Config",
+          "C:\\Users\\wirawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Application.Contracts\\Net8.CoreService.Application.Contracts.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Application.Contracts\\Net8.CoreService.Application.Contracts.csproj"
+              },
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain.Shared\\Net8.Domain.Shared.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain.Shared\\Net8.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Volo.Abp.Account.Application.Contracts": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.FeatureManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Identity.Application.Contracts": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.PermissionManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.SettingManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.TenantManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Application\\Net8.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Application\\Net8.Application.csproj",
+        "projectName": "Net8.Application",
+        "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Application\\Net8.Application.csproj",
+        "packagesPath": "C:\\Users\\wirawat\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\NuGet.Config",
+          "C:\\Users\\wirawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Application\\Net8.CoreService.Application.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Application\\Net8.CoreService.Application.csproj"
+              },
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Application.Contracts\\Net8.Application.Contracts.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Application.Contracts\\Net8.Application.Contracts.csproj"
+              },
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain\\Net8.Domain.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain\\Net8.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Volo.Abp.Account.Application": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.FeatureManagement.Application": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Identity.Application": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.PermissionManagement.Application": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.SettingManagement.Application": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.TenantManagement.Application": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain.Shared\\Net8.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain.Shared\\Net8.Domain.Shared.csproj",
+        "projectName": "Net8.Domain.Shared",
+        "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain.Shared\\Net8.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\wirawat\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\NuGet.Config",
+          "C:\\Users\\wirawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain.Shared\\Net8.CoreService.Domain.Shared.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain.Shared\\Net8.CoreService.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Volo.Abp.AuditLogging.Domain.Shared": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.BackgroundJobs.Domain.Shared": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.BlobStoring.Database.Domain.Shared": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.FeatureManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.GlobalFeatures": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Identity.Domain.Shared": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.OpenIddict.Domain.Shared": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.SettingManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.TenantManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain\\Net8.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain\\Net8.Domain.csproj",
+        "projectName": "Net8.Domain",
+        "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain\\Net8.Domain.csproj",
+        "packagesPath": "C:\\Users\\wirawat\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\NuGet.Config",
+          "C:\\Users\\wirawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain\\Net8.CoreService.Domain.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.Domain\\Net8.CoreService.Domain.csproj"
+              },
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain.Shared\\Net8.Domain.Shared.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain.Shared\\Net8.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Volo.Abp.AuditLogging.Domain": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.BackgroundJobs.Domain": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.BlobStoring.Database.Domain": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Caching": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Emailing": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.FeatureManagement.Domain": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Identity.Domain": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.OpenIddict.Domain": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.Identity": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.OpenIddict": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.SettingManagement.Domain": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.TenantManagement.Domain": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.EntityFrameworkCore\\Net8.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.EntityFrameworkCore\\Net8.EntityFrameworkCore.csproj",
+        "projectName": "Net8.EntityFrameworkCore",
+        "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.EntityFrameworkCore\\Net8.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\wirawat\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\NuGet.Config",
+          "C:\\Users\\wirawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.EntityFrameworkCore\\Net8.CoreService.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\modules\\Net8.CoreService\\src\\Net8.CoreService.EntityFrameworkCore\\Net8.CoreService.EntityFrameworkCore.csproj"
+              },
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain\\Net8.Domain.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain\\Net8.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Volo.Abp.AuditLogging.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.BackgroundJobs.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.BlobStoring.Database.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.PostgreSql": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.FeatureManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.OpenIddict.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.PermissionManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.SettingManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.TenantManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.Application.Tests\\Net8.Application.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.Application.Tests\\Net8.Application.Tests.csproj",
+        "projectName": "Net8.Application.Tests",
+        "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.Application.Tests\\Net8.Application.Tests.csproj",
+        "packagesPath": "C:\\Users\\wirawat\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.Application.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\NuGet.Config",
+          "C:\\Users\\wirawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Application\\Net8.Application.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Application\\Net8.Application.csproj"
+              },
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.Domain.Tests\\Net8.Domain.Tests.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.Domain.Tests\\Net8.Domain.Tests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.Domain.Tests\\Net8.Domain.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.Domain.Tests\\Net8.Domain.Tests.csproj",
+        "projectName": "Net8.Domain.Tests",
+        "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.Domain.Tests\\Net8.Domain.Tests.csproj",
+        "packagesPath": "C:\\Users\\wirawat\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.Domain.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\NuGet.Config",
+          "C:\\Users\\wirawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain\\Net8.Domain.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.Domain\\Net8.Domain.csproj"
+              },
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.TestBase\\Net8.TestBase.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.TestBase\\Net8.TestBase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.EntityFrameworkCore.Tests\\Net8.EntityFrameworkCore.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.EntityFrameworkCore.Tests\\Net8.EntityFrameworkCore.Tests.csproj",
+        "projectName": "Net8.EntityFrameworkCore.Tests",
+        "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.EntityFrameworkCore.Tests\\Net8.EntityFrameworkCore.Tests.csproj",
+        "packagesPath": "C:\\Users\\wirawat\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.EntityFrameworkCore.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\NuGet.Config",
+          "C:\\Users\\wirawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.EntityFrameworkCore\\Net8.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\src\\Net8.EntityFrameworkCore\\Net8.EntityFrameworkCore.csproj"
+              },
+              "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.Application.Tests\\Net8.Application.Tests.csproj": {
+                "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.Application.Tests\\Net8.Application.Tests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.TestBase\\Net8.TestBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.TestBase\\Net8.TestBase.csproj",
+        "projectName": "Net8.TestBase",
+        "projectPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.TestBase\\Net8.TestBase.csproj",
+        "packagesPath": "C:\\Users\\wirawat\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\test\\Net8.TestBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Template\\Dotnet\\abp_net8_webapi\\NuGet.Config",
+          "C:\\Users\\wirawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "NSubstitute.Analyzers.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.16, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Volo.Abp.Authorization": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.BackgroundJobs.Abstractions": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.TestBase": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "xunit.extensibility.execution": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
