@@ -31,7 +31,7 @@ namespace Net8.CoreService.AppServices
         {
             Guid jobId = Guid.NewGuid();
             var manager = new RecurringJobManager();
-            manager.AddOrUpdate(jobId.ToString(), () => SignalRSendMessage("Code A", "Hi my hangfire."), "* * */1 * *", TimeZoneInfo.Local);
+            manager.AddOrUpdate(jobId.ToString(), () => SignalRSendMessage("Code A", string.Format("Hi my hangfire time {0}.", DateTime.Now.ToString("dd-mm-yyyy hh:mm:ss"))), "* * */1 * *", TimeZoneInfo.Local);
         }
             
 
