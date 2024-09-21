@@ -400,3 +400,70 @@ namespace IMFG.ADA.Helpers
 
 }
 
+
+{
+  "App": {
+    "CorsOrigins": "https://*.ADA.com,http://localhost:3000"
+  },
+  "ConnectionStrings": {
+    "Default": "Host=192.168.11.74;Port=5432;Database=csi_imfg_host_ada_poc;User ID=postgres;Password=@Dmin;",
+    "ADACore": "Host=192.168.11.74;Port=5432;Database=ada;User ID=postgres;Password=P@ssw0rd;"
+  },
+  "Redis": {
+    "Configuration": "127.0.0.1"
+  },
+  "AuthServer": {
+    "Authority": "https://localhost:44380",
+    "RequireHttpsMetadata": true,
+    "SwaggerClientId": "ADA_Swagger"
+  },
+  "StringEncryption": {
+    "DefaultPassPhrase": "rIwtKPv4EpxPp4Zp"
+  },
+  "Hangfire": {
+    "ServerName": "localhost",
+    "WorkerCount": 30,
+    "SchedulePollingInterval": 15,
+    "HeartbeatInterval": 1,
+    "ServerCheckInterval": 5
+  },
+  "BlobStore": {
+    "Provider": "PHYSICAL",
+    "Physical": {
+      "BasicPath": "D:\\Storage"
+    },
+    "Azure": {
+      "BlobEndpoint": "BlobEndpoint=https://csisblobtorage.blob.core.windows.net/;",
+      "QueueEndpoint": "QueueEndpoint=https://csisblobtorage.queue.core.windows.net/;",
+      "FileEndpoint": "FileEndpoint=https://csisblobtorage.file.core.windows.net/;",
+      "TableEndPoint": "TableEndpoint=https://csisblobtorage.table.core.windows.net/;",
+      "SharedEndPoint": "SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2024-06-30T15:10:30Z&st=2024-06-07T07:10:30Z&spr=https,http&sig=%2BmqgqgeudaCwo6sbGbrzpVQi9NJ%2B4kkwHTsc%2FshOqqw%3D",
+      "ContainerName": "csi-ada",
+      "CreateContainerIfNotExits": true
+    },
+    "Aws": {
+      "AccessKeyId": "AKIA2CPSY2ZBZGB6OYWE",
+      "SecretAccessKey": "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",
+      "UseCredentials": false,
+      "UseTemporaryCredentials": false,
+      "UseTemporaryFederatedCredentials": false,
+      "ProfileName": "Wirawat",
+      "ProfilesLocation": "~/.aws/credentials",
+      "Region": "ap-southeast-1",
+      "Policy": "{\"Version\": \"2012-10-17\",\"Statement\": [{\"Effect\": \"Allow\",\"Action\": [\"s3:*\",\"s3-object-lambda:*\"],\"Resource\": \"*\"}]}",
+      "DurationSeconds": 3600,
+      "ContainerName": "csi-ada",
+      "CreateContainerIfNotExists": true
+    },
+    "Minio": {
+      "EndPoint": "play.min.io",
+      "AccessKey": "Q3AM3UQ867SPQQA43P2F",
+      "SecretKey": "zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG",
+      "BucketName": "test-bucket"
+    }
+  },
+  "SignalR": {
+    "HubName": "ada-dashboard-hub"
+  }
+}
+
