@@ -15,7 +15,7 @@ namespace Net8.CoreService.Controllers
 
     [Area(CoreServiceRemoteServiceConsts.ModuleName)]
     [RemoteService(Name = CoreServiceRemoteServiceConsts.RemoteServiceName)]
-    [Route("api/CoreService")]
+    [Route("api/CoreServices")]
     public class CoreServicesController : CoreServiceController, ICoreAppService
     {
         private readonly ICoreAppService _iCoreAppService;
@@ -30,6 +30,13 @@ namespace Net8.CoreService.Controllers
         public async Task SignalRSendMessage(string code, string message)
         {
             await _iCoreAppService.SignalRSendMessage(code, message);
+        }
+
+        [HttpGet]
+        [Route("HangfireSendMessageAuto")]
+        public async Task HangfireSendMessageAuto()
+        {
+            await _iCoreAppService.HangfireSendMessageAuto();
         }
 
     }
