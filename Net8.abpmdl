@@ -1,0 +1,89 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.3.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Net8.Application": {
+      "path": "src/Net8.Application/Net8.Application.abppkg",
+      "folder": "src"
+    },
+    "Net8.Application.Tests": {
+      "path": "test/Net8.Application.Tests/Net8.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Net8.Domain.Shared": {
+      "path": "src/Net8.Domain.Shared/Net8.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Net8.Application.Contracts": {
+      "path": "src/Net8.Application.Contracts/Net8.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Net8.HttpApi": {
+      "path": "src/Net8.HttpApi/Net8.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Net8.HttpApi.Client": {
+      "path": "src/Net8.HttpApi.Client/Net8.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Net8.Web": {
+      "path": "src/Net8.Web/Net8.Web.abppkg",
+      "folder": "src"
+    },
+    "Net8.Web.Tests": {
+      "path": "test/Net8.Web.Tests/Net8.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "Net8.EntityFrameworkCore.Tests": {
+      "path": "test/Net8.EntityFrameworkCore.Tests/Net8.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Net8.EntityFrameworkCore": {
+      "path": "src/Net8.EntityFrameworkCore/Net8.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Net8.TestBase": {
+      "path": "test/Net8.TestBase/Net8.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Net8.Domain.Tests": {
+      "path": "test/Net8.Domain.Tests/Net8.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Net8.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Net8.HttpApi.Client.ConsoleTestApp/Net8.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Net8.DbMigrator": {
+      "path": "src/Net8.DbMigrator/Net8.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Net8.Domain": {
+      "path": "src/Net8.Domain/Net8.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

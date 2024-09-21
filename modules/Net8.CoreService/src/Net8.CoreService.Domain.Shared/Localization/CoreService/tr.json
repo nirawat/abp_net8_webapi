@@ -1,0 +1,7 @@
+{
+  "culture": "tr",
+  "texts": {
+    "MyAccount":  "Hesabım",
+    "SamplePageMessage": "CoreService modulünden örnek bir sayfa"
+  }
+}

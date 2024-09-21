@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Net8.CoreService.Domain.Shared": {
+      "path": "src/Net8.CoreService.Domain.Shared/Net8.CoreService.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Net8.CoreService.Domain": {
+      "path": "src/Net8.CoreService.Domain/Net8.CoreService.Domain.abppkg",
+      "folder": "src"
+    },
+    "Net8.CoreService.Application.Contracts": {
+      "path": "src/Net8.CoreService.Application.Contracts/Net8.CoreService.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Net8.CoreService.Application": {
+      "path": "src/Net8.CoreService.Application/Net8.CoreService.Application.abppkg",
+      "folder": "src"
+    },
+    "Net8.CoreService.EntityFrameworkCore": {
+      "path": "src/Net8.CoreService.EntityFrameworkCore/Net8.CoreService.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Net8.CoreService.MongoDB": {
+      "path": "src/Net8.CoreService.MongoDB/Net8.CoreService.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "Net8.CoreService.HttpApi": {
+      "path": "src/Net8.CoreService.HttpApi/Net8.CoreService.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Net8.CoreService.HttpApi.Client": {
+      "path": "src/Net8.CoreService.HttpApi.Client/Net8.CoreService.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Net8.CoreService.TestBase": {
+      "path": "test/Net8.CoreService.TestBase/Net8.CoreService.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Net8.CoreService.EntityFrameworkCore.Tests": {
+      "path": "test/Net8.CoreService.EntityFrameworkCore.Tests/Net8.CoreService.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Net8.CoreService.MongoDB.Tests": {
+      "path": "test/Net8.CoreService.MongoDB.Tests/Net8.CoreService.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "Net8.CoreService.Domain.Tests": {
+      "path": "test/Net8.CoreService.Domain.Tests/Net8.CoreService.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Net8.CoreService.Application.Tests": {
+      "path": "test/Net8.CoreService.Application.Tests/Net8.CoreService.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Net8.CoreService.HttpApi.Host": {
+      "path": "host/Net8.CoreService.HttpApi.Host/Net8.CoreService.HttpApi.Host.abppkg",
+      "folder": "host"
+    },
+    "Net8.CoreService.Web": {
+      "path": "src/Net8.CoreService.Web/Net8.CoreService.Web.abppkg",
+      "folder": "src"
+    },
+    "Net8.CoreService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Net8.CoreService.HttpApi.Client.ConsoleTestApp/Net8.CoreService.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Net8.CoreService.Web.Host": {
+      "path": "host/Net8.CoreService.Web.Host/Net8.CoreService.Web.Host.abppkg",
+      "folder": "host"
+    },
+    "Net8.CoreService.AuthServer": {
+      "path": "host/Net8.CoreService.AuthServer/Net8.CoreService.AuthServer.abppkg",
+      "folder": "host"
+    },
+    "Net8.CoreService.Host.Shared": {
+      "path": "host/Net8.CoreService.Host.Shared/Net8.CoreService.Host.Shared.abppkg",
+      "folder": "host"
+    },
+    "Net8.CoreService.Web.Unified": {
+      "path": "host/Net8.CoreService.Web.Unified/Net8.CoreService.Web.Unified.abppkg",
+      "folder": "host"
+    },
+    "Net8.CoreService.Blazor": {
+      "path": "src/Net8.CoreService.Blazor/Net8.CoreService.Blazor.abppkg",
+      "folder": "src"
+    },
+    "Net8.CoreService.Blazor.Host": {
+      "path": "host/Net8.CoreService.Blazor.Host/Net8.CoreService.Blazor.Host.abppkg",
+      "folder": "host"
+    },
+    "Net8.CoreService.Blazor.Server": {
+      "path": "src/Net8.CoreService.Blazor.Server/Net8.CoreService.Blazor.Server.abppkg",
+      "folder": "src"
+    },
+    "Net8.CoreService.Blazor.WebAssembly": {
+      "path": "src/Net8.CoreService.Blazor.WebAssembly/Net8.CoreService.Blazor.WebAssembly.abppkg",
+      "folder": "src"
+    },
+    "Net8.CoreService.Blazor.Server.Host": {
+      "path": "host/Net8.CoreService.Blazor.Server.Host/Net8.CoreService.Blazor.Server.Host.abppkg",
+      "folder": "host"
+    }
+  }
+}

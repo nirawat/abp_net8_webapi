@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Net8.CoreService": {
+      "path": "Net8.CoreService.abpmdl"
+    }
+  }
+}

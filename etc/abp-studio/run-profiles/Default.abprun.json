@@ -1,0 +1,10 @@
+﻿{
+  "applications": {
+    "Net8.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44304",
+      "path": "../../../src/Net8.Web/Net8.Web.csproj",
+      "kubernetesService": ".*-web$"
+    }
+  }
+}
